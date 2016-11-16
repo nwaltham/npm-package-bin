@@ -1,27 +1,29 @@
 {
-  "name": "npm-package-bin",
-  "version": "0.0.1",
-  "description": "CLI tool to edit bin section of npm package.json",
-  "main": "cli.js",
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "bin": "./cli.js",
-  "author": {
-    "name": "Nicholas Waltham",
-    "email": "nw221@log1.net",
-    "url": "www.infohit.net"
-  },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/nwaltham/npm-bin"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "xo": "^0.17.0"
-  },
-  "dependencies": {
-    "bluebird": "^3.4.6",
-    "woofwoof": "^3.6.6"
-  }
+    "name": "npm-package-bin",
+    "version": "0.0.2",
+    "description": "CLI tool to edit bin section of npm package.json",
+    "main": "cli.js",
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "bin": {
+        "npm-bin": "cli.js"
+    },
+    "author": {
+        "name": "Nicholas Waltham",
+        "email": "nw221@log1.net",
+        "url": "www.infohit.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nwaltham/npm-package-bin"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "xo": "^0.17.0"
+    },
+    "dependencies": {
+        "bluebird": "^3.4.6",
+        "woofwoof": "^3.6.6"
+    }
 }
