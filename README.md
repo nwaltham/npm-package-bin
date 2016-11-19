@@ -13,7 +13,7 @@ The purpose of this tool is to add, list and remove items from the bin section o
 
 # Usage
 
-Change to the directory where you have your project package.json 
+Change to the directory where you have your project package.json first. 
 
 ## Add a command to the package.json file
 
@@ -40,9 +40,9 @@ This will remove command foo's definition from the package.json file.
 * You won't see any changes to what's available on the command line until you either reinstall the package globally or use *npm link* 
 * If you have not saved your defaults and you don't specify and output directory, then the updates file will be saved to package.json.new
 
-## Review command available for this package
+## Review commands available for this package
 
-    npm-bin ls foo 
+    npm-bin ls  
     
 list all the available commands
 
