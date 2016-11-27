@@ -1,11 +1,27 @@
 {
     "name": "npm-package-bin",
-    "version": "0.0.4",
+    "version": "0.0.6",
     "description": "CLI tool to edit bin section of npm package.json",
     "main": "cli.js",
     "scripts": {
         "test": "xo && ava"
-    },
+    },"keywords": [
+    "cli",
+    "bin",
+    "util",
+    "utility",
+    "helper",
+    "package",
+    "command",
+    "line",
+    "tool",
+    "json",
+    "npm",
+    "nodejs",
+    "cmd",
+    "edit",
+    "console"
+  ],
     "bin": {
         "npm-bin": "cli.js"
     },

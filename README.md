@@ -17,7 +17,7 @@ Change to the directory where you have your project package.json first.
 
 ## Add a command to the package.json file
 
-    npm-bin add foo foobar.js -o package.json
+        npm-bin add foo foobar.js -o package.json
 
 This will add command foo to the package.json file, which should call the scripts foobar when run. 
 
@@ -32,7 +32,7 @@ This will add command foo to the package.json file, which should call the script
 
 ## Remove a command from the package.json file
 
-    npm-bin rm foo -o package.json
+        npm-bin rm foo -o package.json
 
 This will remove command foo's definition from the package.json file. 
 
@@ -42,7 +42,7 @@ This will remove command foo's definition from the package.json file.
 
 ## Review commands available for this package
 
-    npm-bin ls  
+        npm-bin ls  
     
 list all the available commands
 
@@ -56,7 +56,7 @@ will save the default output file as package.json (it's package.json.new when yo
 
 ### Getting help
 
-    npm-bin --help
+        npm-bin --help
 
 should return the tool's built in help
 
@@ -75,5 +75,5 @@ should return the tool's built in help
 
 will return the tool's current version
 
-        0.0.2
+        0.0.6
  
